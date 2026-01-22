@@ -25,3 +25,5 @@ The notebook frames delinquency risk as a classification problem, with EverDelin
 Data is split into training and test sets using train_test_split, and cross‑validation is applied to estimate out‑of‑sample performance. Evaluation metrics include:
 - Classification: accuracy, precision, recall, F1‑score, ROC curves, AUC, confusion matrices, and classification reports.
 - Regression : R², mean squared error (MSE), and mean absolute error (MAE).​
+### Conclusions
+Across regression models, logistic with and L1 penalty and liblinear solver (Lasso) had the best accuracy in train and test scores. From ensemble tree models, both models produced the same accuracy and are also higher than all the regression models tested.
